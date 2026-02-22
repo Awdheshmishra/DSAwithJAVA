@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45fb1bfb-4395-4891-bc0a-56acbb492472" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DSA/ForLoop/whileloop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/methods/calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/methods/calculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/methods/calculator3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DSA/methods/calculator4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starrectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/absolutenumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/absolutenumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/areanperimeterofrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/areanperimeterofrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/divisibleby5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/divisibleby5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/evenodd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/evenodd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/findyounger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/findyounger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/fivedigitnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/fivedigitnumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/greatestofthreenumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/greatestofthreenumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/leastnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/leastnumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/oroperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/oroperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/profitloss.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/profitloss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/switchcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/switchcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/ternaryoperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/ternaryoperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/threedigitnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/threedigitnumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/triangleornot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/triangleornot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DSA/ForLoop/conditional/withoutusingop_3grtst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA/conditional/withoutusingop_3grtst.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Awdheshmishra"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Awdheshmishra/DSA.git",
+    "accountId": "d80a89d0-43cd-4a23-94b1-824ecc0afddd"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="33DOhqAtHo91Q0dzDsWGpSzJNtz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Awdhesh Mishra/OneDrive/Desktop/java/java code/src/patterns"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45fb1bfb-4395-4891-bc0a-56acbb492472" name="Changes" comment="" />
+      <created>1758848297745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758848297745</updated>
+    </task>
+    <servers />
+  </component>
+</project>
