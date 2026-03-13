@@ -1,6 +1,6 @@
 package Recursion;
 import java.util.Scanner;
-public class Increasing {
+public class _1toN {
         static int n ;
         public static void print(int x){
             if(x>n) return ;
@@ -17,4 +17,4 @@ public class Increasing {
 
         }
     }
-
+//increasing
