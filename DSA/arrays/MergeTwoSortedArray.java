@@ -1,4 +1,4 @@
-package DSA.arrays;
+package arrays;
 
 public class MergeTwoSortedArray {
     public static void main(String[] args) {
