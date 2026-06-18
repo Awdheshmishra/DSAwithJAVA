@@ -1,8 +1,8 @@
 package Linkedlist;
-class Node{
+class Nodee{
     int val;
     Node next;
-    Node (int val) {
+    Nodee (int val) {
         this.val = val;
     }
 }
