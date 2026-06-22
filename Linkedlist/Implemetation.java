@@ -1,4 +1,6 @@
 package Linkedlist;
+import javax.management.StandardEmitterMBean;
+import javax.sound.midi.MidiFileFormat;
 import java.util.ArrayList;
 class SLL{
     //user defined data structure
@@ -48,7 +50,9 @@ class SLL{
     }
     //get element
     int get(int idx) throws Error{
-        if(idx==size-1) return tail.val;
+        if(idx==size-1) {
+            return tail.val;
+        }
         if(idx>=size || idx<0){
 //            System.out.println("invalid index");
 //            return -1;
@@ -60,6 +64,41 @@ class SLL{
             temp = temp.next;
         }
         return temp.val;
+    }
+
+    void set (int idx, int val) throws Error{
+        if(idx==size-1){
+            tail.val =val;
+        }
+        if(idx>=size || idx<0){
+            throw new Error("bhai erroe hai");
+        }
+        Node temp = head;
+        for(int i=1; i<=idx; i++){
+            temp = temp.next;
+        }
+        temp.val = val;
+    }
+    void deleteAtHead() throws Error{
+        if(head==null) throw new Error("List is empty");
+        head = head.next;
+        size--;
+    }
+    void delete(int idx) throws Error{
+        if(idx==0){
+            deleteAtHead();
+            return;
+        }
+        if (idx<0 || idx>=size)
+            throw new Error("invalid index");
+            Node temp = head;
+            for (int i = 1; i <= idx - 1; i++) {
+                temp = temp.next;
+            }
+            if (temp.next == tail) tail = temp;
+            temp.next = temp.next.next;
+            size--;
+
     }
     void display() {
         Node temp = head;
@@ -104,8 +143,10 @@ public class Implemetation {
         list.display();
         list.insert(10,43);
         list.display();
+        list.deleteAtHead();
+        list.display();
 
-        System.out.println(list.get(-1));
+        //System.out.println(list.get(-1));
 
 //        list.insertAtEnd(10);
 //        list.insertAtEnd(20);
@@ -118,4 +159,3 @@ public class Implemetation {
 }
 
 //linked list me gr element ko shift krna hai to bs direct ho jata ye array me nhi hota hai
-//
