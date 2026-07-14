@@ -1,7 +1,5 @@
 package Stack;
-
 import java.util.Stack;
-
 public class display {
     public static void displayReverse(Stack<Integer> st){
 //        s.push(6); //pass by refrence
