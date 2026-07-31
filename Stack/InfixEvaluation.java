@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class InfixEvaluation {
     public static void main(String[] args) {
-        String str = "9-5+3*4/6";
+        String str = "8-5+3*4/6";
         Stack<Integer> val = new Stack<>();
         Stack<Character> op = new Stack<>();
         for(int i =0; i<str.length();i++){
