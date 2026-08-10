@@ -83,12 +83,24 @@ public class revision {
 
 //        number triangle flipped --> composite pattern -- mixture of two pattern into one pattern
 
-        for (int i = 1; i <= n; i++) {
+        /*for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n-i; j++) {
                 System.out.print(" "+ " ");
             }
             for(int j=1; j<=i;j++){
                 System.out.print(j + " ");
+            }
+            System.out.println();
+        }*/
+
+//        Rhombus
+
+        for (int i = 1; i <= n; i++) {//rows
+            for (int j = 1; j <= n-i; j++) {//spaces
+                System.out.print(" "+ " ");
+            }
+            for(int j=1; j<=n;j++){//star
+                System.out.print("*" + " ");
             }
             System.out.println();
         }
