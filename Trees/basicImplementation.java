@@ -1,13 +1,13 @@
 package Trees;
-public class basicImplementation {
-    static class Node {
-        int val;
-        Node left;
-        Node right;
-        Node(int val) {
-            this.val = val;
-        }
+class Node {
+    int val;
+    Node left;
+    Node right;
+    Node(int val) {
+        this.val = val;
     }
+}
+public class basicImplementation {
         public static void main(String[] args) {
             Node a = new Node(1);
 //            Node b = new Node(41);
