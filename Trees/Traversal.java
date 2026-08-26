@@ -1,5 +1,8 @@
 package Trees;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Traversal {
     public static void main(String[] args) {
         Node a = new Node(1);
@@ -23,6 +26,10 @@ public class Traversal {
         System.out.println();
         System.out.print("postorder is: ");
         postorder(a);
+        System.out.println();
+        System.out.print("level order traversal: ");
+        levelOrder(a);
+        System.out.println();
     }
    /* private static void display(Node root){
         if (root==null) return;//base case
@@ -30,6 +37,16 @@ public class Traversal {
         display(root.left);//left subtree
         display(root.right);//right subtree
     }*/
+    private static void levelOrder(Node root){
+        Queue<Node> q = new LinkedList<>();
+        if(root!=null) q.add(root);
+        while (q.size()>0){
+            Node front = q.remove();
+            System.out.print(front.val+" ");
+            if(front.left!=null) q.add(front.left);
+            if (front.right!=null) q.add(front.right);
+        }
+    }
     private static void preorder(Node root){
         if (root==null) return;//base case
         System.out.print(root.val+" ");//self
