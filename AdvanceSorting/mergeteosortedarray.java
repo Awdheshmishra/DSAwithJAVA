@@ -1,5 +1,4 @@
 package AdvanceSorting;
-
 public class mergeteosortedarray {
     public static void main(String[] args) {
         int[] a = {11, 33, 42, 54};
@@ -17,7 +16,6 @@ public class mergeteosortedarray {
                 k++;
             }
         }
-
         if (i == a.length) {
             while (j < b.length) {
                 c[k] = b[j];
@@ -31,7 +29,6 @@ public class mergeteosortedarray {
                     k++;
                 }
             }
-
             for (int ele : c) {
                 System.out.print(ele + " ");
             }

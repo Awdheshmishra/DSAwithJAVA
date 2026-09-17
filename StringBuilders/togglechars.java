@@ -1,7 +1,5 @@
 package StringBuilders;
-
 import java.util.Scanner;
-
 public class togglechars {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,7 +21,6 @@ public class togglechars {
                 ch= (char)ascii;
                 sb.setCharAt(i,ch);
             }
-
         }
         System.out.println(sb);
     }

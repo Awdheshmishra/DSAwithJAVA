@@ -10,7 +10,6 @@ public class Fibonacci {
         System.out.println("enter n: ");
         int n = sc.nextInt();
         System.out.println(fibo(n));
-
     }
 }
 //multiple calls
